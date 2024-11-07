@@ -1,0 +1,41 @@
+<?php
+// Database connection details
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "contact_form";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Fetch all records from the table
+$sql = "SELECT * FROM msg";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // Output table header
+    echo "<table border='1'>";
+    echo "<tr><th>Name</th><th>Email</th><th>Subject</th><th>Mobile No</th><th>Message</th></tr>";
+
+    // Output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<tr>";
+        echo "<td>" . $row["Name"]. "</td>";
+        echo "<td>" . $row["Email"]. "</td>";
+        echo "<td>" . $row["Subject"]. "</td>";
+        echo "<td>" . $row["Mobile_No"]. "</td>";
+        echo "<td>" . $row["Messages"]. "</td>";
+        echo "</tr>";
+    }
+
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+$conn->close();
+?>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Indocast Risers</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Default to a single column */
+  gap: 30px;
+  margin: 70px auto;
+  max-width: 1000px;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on larger screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on even larger screens */
+  }
+}
+
+.grid-item {
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #fbb03b;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease-in-out;
+}
+
+.circle-icon {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin: -40px auto 0 auto;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  border: 2px solid #fbb03b;
+}
+
+.circle-icon img {
+  width: 80%;
+  height: auto;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* cool hover effect */
+.grid-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* lift up effect */
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+.grid-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.grid-item:hover::before {
+  opacity: 1;
+}
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+<a class="navbar-brand" href="index.html" style="z-index:100; position:fixed; margin-top: 3%;  margin-bottom:3%; margin-left:3%;">
+    <img src="logo.png" width="270" height="75" alt="" >
+  </a>
+      <h1 class="logo me-auto">
+    
+ 
+</h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="abtus.html">About</a></li>
+          <li><a class="nav-link scrollto" href="product.html">Products</a></li>
+          <li><a class="nav-link   scrollto active" href="machinary.html">Machinary</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+         <li><a class="getstarted scrollto" href="mailto:indocastrisers@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email">Get To US</a></li>
+     </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+<section id="hero" class="d-flex align-items-center" >
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h2>We are shaping the future of the industries that will shape the future for everyone</h1>
+
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="index.html" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://youtu.be/__akH04CTFA" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+	
+
+
+
+<div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    
+<img src="assets/img/hm3.jpg" class="img-fluid " alt="">
+
+                    
+                </div>
+                <div class="carousel-item">
+                    
+<img src="assets/img/hm2.jpg" class="img-fluid " alt="">
+
+                    
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+         
+
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+  
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <img src="assets/img/Picture1.jpg" class="img-fluid rounded-4 mb-4" alt="">
+          <p><br><br><h2>Steel - Advanced Refractories</h2> Indocast Risers Advanced Refractories business supplies the steel industry and other process industries with high performance refractory materials used for lining vessels such as blast furnaces, ladles and tundishes to enable them to withstand high temperatures and/or corrosive attack. These refractory lining materials are supplied in the form of powder mixes, which are spray-applied or cast onto the vessels to be lined (‘monolithics’), or in pre-cast shapes and bricks.  </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="content ps-0 ps-lg-5">
+            <p class="fst-italic">
+               <h2>Steel - Flow Control</h2> Our Flow Control products and systems are used extensively in the continuous casting process, enabling steel to be cast without interruption, while protecting it from the atmosphere when passing through the production process. Avoiding atmospheric contact significantly reduces contamination levels in the steel. Thus the quality, reliability and consistency of our products are critical in the quality of the finished metal being produced and the productivity, profitability and safety of our customers process .
+            </p>
+           
+
+            <div class="position-relative mt-4">
+              <br> <br>
+              <img src="assets/img/Picture2.jpg" class="img-fluid rounded-4" alt="">
+              <a href="foseco.mp4" class="glightbox play-btn"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          <div class="col-lg-6">
+           <br> <img src="assets/img/Picture3.jpg" class="img-fluid rounded-4 mb-4" alt="">
+            <p><br> 
+                  <h2> Sleeve manufacturing  </h2> 
+Indocast Risers specializes in precision manufacturing of refractory sleeves for foundry applications. Using advanced materials and design techniques, we ensure optimal metal flow and casting geometry. Recognized globally, our commitment to quality makes us a preferred supplier in the industry.
+                </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+               <h2>Steel - Digital Services</h2> Our newly established Digital Services business complements existing product lines by bringing new services to our existing customers. Digital Services focuses on the capture of key manufacturing data, combining this with indocast’s strong presence and refractory expertise in metal casting to create new technologies and develop integrated expert process management systems.
+              </p>
+             
+  
+              <div class="position-relative mt-4">
+                <br> <br>
+                <img src="assets/img/Picture4.jpg" class="img-fluid rounded-4" alt="">
+                <a href="foseco.mp4" class="glightbox play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  </section>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="circle-icon mission">
+        <img src="https://tuning-mania.com/pub/media/wysiwyg/mission-icon.png" alt="Mission Icon">
+      </div>
+      <h3>Mission</h3>
+      <p>By being the partner providing the greatest value
+        Achieved through a solutions partnering and value selling approach delivering improved foundry processes and casting quality
+        Based upon world class proprietary technology</p>
+    </div>
+    <div class="grid-item">
+      <div class="circle-icon vision">
+        <img src="https://tuning-mania.com/pub/media/wysiwyg/vision-icon.png" alt="Vision Icon">
+      </div>
+      <h3>Vision</h3>
+      <p>The preferred partner to the foundry industry providing the greatest value
+        A highly respected industry leader with which all stakeholders are proud to be associated
+        </p>
+    </div>
+  </div>
+  
+  
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" >
+
+
+
+    <div class="footer-top">
+      <div class="container" >
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Indocast Risers</h3>
+            <p>Santosh Nagar , Waki , <br>
+              Khed ,<br>
+              Maharashtra .<br><br>
+              <strong>Phone:</strong> +91 7420840400<br>
+              <strong>Email:</strong> indocastrisers@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="abtus.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="product.html">Products</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="abtus.html">Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Connect with us on social media for the latest updates and behind-the-scenes content .</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Indocast Risers</span></strong> All Rights Reserved
+      </div>
+      <div class="credits">
+</div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
